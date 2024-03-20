@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-color: rgba(255, 228, 196, 0.194);
+}
+
+h1 {
+    color: rgb(255, 25, 0);
+    font-size: 5rem;
+    margin: 0;
+}
+h2 {
+    margin: 0;
+    font-size: 4rem;
+    color: rgb(88, 22, 12);
+}
+h3 {
+    margin: 0;
+}
+
+.btn {
+    height: 70px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: beige;
+    display: block;
+    width: 30%;
+    font-size: 150%;
+    border: none;
+}
+.batch {
+    height: 50px;
+    border: solid red 2px;
+    background-color: beige;
+    min-height: 5rem;
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%;
+    height: fit-content;
+    line-height: 200%;
+    border-radius: 20px;
+}
+.batchParagraph {
+    font-size: 200%;
+    font-family: monospace;
+    height: 50px;
+    max-height: fit-content;
+    width: 70%;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 13px;
+    border: 0;
+    background-color: rgb(224, 169, 97);
+}
+.pressed {
+    border: black solid 2px;
+    color: red;
+}
+#incerement {
+    background-color: green;
+}
+#save {
+    background-color: red;
+}
+#refresh {
+    background-color: blue;
+}
+.sum {
+    background-color: aquamarine;
+    border: solid red 2px;
+}
